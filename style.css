@@ -46,12 +46,6 @@
 {
   text-decoration: underline;
 }
-#navlink5
-{
-  left:60rem;
-  top:0.8rem;
-  font-size: 2.1rem;
-}
 .text
 {
   position: absolute;
@@ -120,12 +114,6 @@
 {
   position: absolute;
   padding-left: 5.5rem;
-}
-.nav_linkedin
-{
-  padding:0.7rem; 
-  text-decoration: none;
-  padding-left:7.5rem;
 }
 .aboutme_intro
 {
@@ -480,89 +468,7 @@ tr, td
   opacity: 1;
   visibility: visible;
 }
-@media screen and (max-width: 1280px) and (min-width: 601px)
-{
-  .website_name
-{
-  font-size: 5vw;
-  line-height: 110%;
-}
-.navigationbar
-{
-    font-size: 2.2vw;
-    top:0.7rem;
-}
-#navlink1
-{
-  left: 18%;
-}
-#navlink2
-{
-    left: 27.6%;
-}
-#navlink3
-{
-    left: 41%;
-}
-#navlink4
-{
-    left: 52%;    
-}
-#navlink5
-{
-  left:67%;
-  top:1.2%;
-  font-size: 2.5vw;
-}
-.nav_linkedin
-{
-  padding-top: 0.8%;
-}
-#hello,#home_Shaina,#home_developer
-{
-  font-size: 4.5vw;
-}
-#hello
-{
-  top: 25%;
-}
-#home_Shaina
-{
-  top: 36%;
-}
-#home_developer
-{
-  top: 48%;
-}
-.home_intro,.home_introline
-{
-  font-size: 2vw;
-}
-.home_intro
-{
-  top:65%;
-}
-.home_introline
-{
-  top: 70%;
-}
-.btn
-{
-  font-size: 1.5vw;
-  top: 78%;
-}
-.aboutme_intro
-{
-  font-size: 1.7vw;
-}
-.wrapper
-{
-  top: 65%;
-  width: 30%;
-  height: 90%;
-}
-}
-@media screen and (max-width: 600px) 
+@media screen and (max-device-width: 600px) 
 {
   .website_name
 {
@@ -589,16 +495,6 @@ tr, td
 #navlink4
 {
     left: 46.8%;    
-}
-#navlink5
-{
-  left:59.7%;
-  top:0.4%;
-  font-size: 1.5vw;
-}
-.nav_linkedin
-{
-  padding-top: 0.7%;
 }
 #hello,#home_Shaina,#home_developer
 {
@@ -654,6 +550,79 @@ tr, td
   font-size: 2vw;
 }
 }
+@media screen and (max-device-width: 1280px) and (min-device-width: 601px)
+{
+  .website_name
+{
+  font-size: 5vw;
+  line-height: 110%;
+}
+.navigationbar
+{
+    font-size: 2.2vw;
+    top:0.7rem;
+}
+#navlink1
+{
+  left: 18%;
+}
+#navlink2
+{
+    left: 27.6%;
+}
+#navlink3
+{
+    left: 41%;
+}
+#navlink4
+{
+    left: 52%;    
+}
+#hello,#home_Shaina,#home_developer
+{
+  font-size: 4.5vw;
+}
+#hello
+{
+  top: 25%;
+}
+#home_Shaina
+{
+  top: 36%;
+}
+#home_developer
+{
+  top: 48%;
+}
+.home_intro,.home_introline
+{
+  font-size: 2vw;
+}
+.home_intro
+{
+  top:65%;
+}
+.home_introline
+{
+  top: 70%;
+}
+.btn
+{
+  font-size: 1.5vw;
+  top: 78%;
+}
+.aboutme_intro
+{
+  font-size: 1.7vw;
+}
+.wrapper
+{
+  top: 65%;
+  width: 30%;
+  height: 90%;
+}
+}
+
 @media screen and (max-width: 1280px) 
 {
   .education_text
@@ -735,4 +704,25 @@ h2.dd_text
   padding-top: 38%;
   font-size: 2vw;
 }
+}
+
+@media screen and (max-device-width: 1280px) 
+{
+  .gingerup_img{
+    width: 16vw;
+  }
+  .timer_img{
+    width: 16vw;
+    margin-right: 10px;
+    margin-top: 95vw;
+    margin-bottom: 26%;
+    margin-left: -15.5vw;
+  }
+  .uc_img{
+    width: 16vw;
+    margin-right: 10px;
+    margin-top: 140vw;
+    margin-bottom: 26%;
+    margin-left: -15.5vw;
+  }
 }
